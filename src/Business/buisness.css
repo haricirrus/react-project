@@ -1,0 +1,20 @@
+.business-container{   
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height:80vh;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(218, 228, 228);
+    
+}
+.business-img{
+    flex:0.4;
+    height:50%;
+    width:25%;
+    margin-right: 5%;
+}
+.business-para{
+    flex:0.6;
+
+}

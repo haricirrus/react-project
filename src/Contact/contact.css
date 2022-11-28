@@ -1,0 +1,42 @@
+.form-container{
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('D:\react_assigment\sample-project\src\Contact\istockphoto-1322229160-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(184, 186, 186);
+    width:450px;
+    height:60vh;
+    border-radius: 18px;
+}
+
+input{
+    padding: 1rem;
+    width:80%;
+    
+}
+textarea{
+    padding: 1rem;
+    width:80%;
+    
+}
+.btn-submit{
+    outline:none;
+    border: none;
+    width:80%;
+    background-color: rgb(3, 23, 36);
+    padding:1rem;
+    border-radius: 8px;
+    color:white;
+    font-size: 1.1rem;
+    cursor:pointer;
+}
