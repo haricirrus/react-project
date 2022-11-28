@@ -1,0 +1,24 @@
+.invest-container{
+    background-image: url('D:\react_assigment\sample-project\src\Invest\pngtree-blue-technology-bitcoin-investment-image_18892.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color:aliceblue;
+
+}
+.invest-header{
+    flex:0.6;
+}
+.invest-para{
+    flex:0.4;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+}

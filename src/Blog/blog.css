@@ -1,0 +1,26 @@
+.blog-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(218, 228, 228);
+    
+}
+.blog-first{
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+.blog-second{
+    display:flex;
+    flex-direction: row;
+}
+.img-first{
+    height:25%;
+     width: 25%;
+     margin-right: 5%;
+}
+.img-second{
+    height:25%;
+    width:25%;
+    margin-left: 5%;
+}
